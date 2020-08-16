@@ -109,7 +109,7 @@ const Invoice = (props) => {
 				<ReactBootstrap.Table striped bordered hover>
 					<thead>
 						<tr>
-							<th>Salesman Id</th>
+							<th>Salesman ID</th>
 							<th style={{ width: '40%' }}>Product Details</th>
 							<th style={{ width: '20%' }}>Total</th>
 							<th style={{ width: '20%' }}>Actions</th>

@@ -128,7 +128,7 @@ const Sale = (props) => {
 				<ReactBootstrap.Table striped bordered hover>
 					<thead>
 						<tr>
-							<th>Id</th>
+							<th>ID</th>
 							<th>Name</th>
 							<th>Contact</th>
 							<th>Credit Due</th>

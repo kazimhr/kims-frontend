@@ -69,13 +69,13 @@ function MyVerticallyCenteredModal(props) {
 				<ReactBootstrap.Form validated={validated} onSubmit={handleSubmit} style={{ textAlign: 'center' }}>
 					<ReactBootstrap.Form.Group as={ReactBootstrap.Row} controlId="validationCustom01">
 						<ReactBootstrap.Form.Label column sm={4}>
-							Id
+							ID
 						</ReactBootstrap.Form.Label>
 						<ReactBootstrap.Col sm={8}>
 							<ReactBootstrap.Form.Control
 								type="number"
 								required
-								placeholder="Unique id"
+								placeholder="Unique ID"
 								min="0"
 								onBlur={() => Idchecking(salesman_id)}
 								onChange={(e) => {

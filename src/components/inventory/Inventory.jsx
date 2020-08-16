@@ -136,7 +136,7 @@ const Inventory = (props) => {
 				<ReactBootstrap.Table striped bordered hover>
 					<thead>
 						<tr>
-							<th>Id</th>
+							<th>ID</th>
 							<th>Product Name</th>
 							<th>Product Quantity</th>
 							<th>Company</th>

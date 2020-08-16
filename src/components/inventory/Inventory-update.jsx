@@ -55,7 +55,7 @@ function MyVerticallyCenteredModalUpdate(props) {
 				<ReactBootstrap.Form validated={validated} onSubmit={handleSubmit} style={{ textAlign: 'center' }}>
 					<ReactBootstrap.Form.Group as={ReactBootstrap.Row} controlId="validationCustom01">
 						<ReactBootstrap.Form.Label column sm={4}>
-							Id
+							ID
 						</ReactBootstrap.Form.Label>
 						<ReactBootstrap.Col sm={8}>
 							<ReactBootstrap.Form.Control

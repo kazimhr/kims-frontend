@@ -151,7 +151,7 @@ function InvoiceAdd(props) {
 						controlId="validationCustom01"
 						style={{ textAlign: 'center', margin: 'auto', marginBottom: '20px' }}
 					>
-						<Form.Label>Salesman Id</Form.Label>
+						<Form.Label>Salesman ID</Form.Label>
 						<Form.Control
 							required
 							min="1"
@@ -172,7 +172,7 @@ function InvoiceAdd(props) {
 						return (
 							<Form.Row key={i}>
 								<Form.Group as={Col} md="3" controlId="validationCustom01">
-									<Form.Label>Product Id</Form.Label>
+									<Form.Label>Product ID</Form.Label>
 									<Form.Control
 										required
 										min="1"

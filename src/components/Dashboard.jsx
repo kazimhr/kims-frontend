@@ -168,11 +168,11 @@ const Dashboard = () => {
 					</div>
 
 					<div className="data-table">
-						<h5 style={{ marginTop: '50px' }}>Insufficient Products</h5>
+						<h5 className="dashboard-table-headings">Insufficient Products</h5>
 						<Table striped bordered hover>
 							<thead>
 								<tr>
-									<th>Id</th>
+									<th>ID</th>
 									<th>Product Name</th>
 									<th>Product Quantity</th>
 									<th>Company</th>
@@ -183,11 +183,11 @@ const Dashboard = () => {
 						</Table>
 					</div>
 					<div className="data-table">
-						<h5 style={{ marginTop: '50px' }}>Salespersons whose dues exceed 1000</h5>
+						<h5 className="dashboard-table-headings">Salespersons whose dues exceed 1000</h5>
 						<Table striped bordered hover>
 							<thead>
 								<tr>
-									<th>Id</th>
+									<th>ID</th>
 									<th>Name</th>
 									<th>Contact</th>
 									<th>Credit Due</th>
