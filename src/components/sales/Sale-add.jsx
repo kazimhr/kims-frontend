@@ -50,9 +50,6 @@ function MyVerticallyCenteredModal(props) {
 					console.log(err);
 				});
 		}
-
-		event.preventDefault();
-		event.stopPropagation();
 	};
 
 	return (
@@ -113,7 +110,9 @@ function MyVerticallyCenteredModal(props) {
 						<ReactBootstrap.Col sm={8}>
 							<ReactBootstrap.Form.Control
 								required
-								type="number"
+								type="tel"
+								pattern="[0-9]{4}[0-9]{7}"
+								placeholder="XXXXXXXXXXX"
 								onChange={(e) => {
 									setSalesman_contact(e.target.value);
 								}}
