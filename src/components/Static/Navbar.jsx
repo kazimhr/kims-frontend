@@ -20,9 +20,9 @@ const NavbarTop = () => {
 
 	return (
 		<div className="content-div">
-			<Navbar bg="light" expand="lg">
+			<Navbar bg="light" expand="lg" style={{ borderRadius: 10 }}>
 				<Navbar.Brand id="navbar-welcome">
-					<p>Welcome to Kavi Inventory Management System!!</p>
+					<p style={{ color: 'black' }}>Kavi Inventory Management System</p>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
@@ -37,7 +37,7 @@ const NavbarTop = () => {
 								</li>
 							) : (
 								<li className="nav-item">
-									<p className="nav-name">Welcome! Dear, {userService.getLoggedInUser().name}</p>
+									<p className="nav-name">Welcome {userService.getLoggedInUser().name}</p>
 								</li>
 							)}
 

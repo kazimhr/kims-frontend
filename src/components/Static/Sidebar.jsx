@@ -81,8 +81,7 @@ const Sidebar = () => {
 				</ul>
 				<span>
 					<p style={{ color: 'white' }}>
-						Kazim Haider And Naqu has all the rights for the entire website, they've worked hard on it and
-						also enjoyed it :)
+						All rights to KIMS are reserved by Kazim Haider, Muhammad Naqvi, and{'\n'}Volioché Studios.
 					</p>
 				</span>
 			</nav>

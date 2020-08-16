@@ -8,8 +8,17 @@
 .social-part .fa {
 	padding-right: 20px;
 }
+
 ul li a {
 	margin-right: 20px;
+}
+
+#storage_slogan.p {
+	margin-right: 5px;
+}
+p {
+	margin-left: 20px;
+	margin-right: 7.5px;
 }
 
 #navbar-welcome {

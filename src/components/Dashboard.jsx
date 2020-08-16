@@ -128,12 +128,12 @@ const Dashboard = () => {
 						</div>
 						<div className="col-lg-3">
 							<Card
-								bg={'Dark'.toLowerCase()}
+								bg={'Secondary'.toLowerCase()}
 								text={'Dark'.toLowerCase() === 'light' ? 'dark' : 'white'}
 								style={{ width: '16rem' }}
 								className="mr-3"
 							>
-								<Card.Header>Total Sales People</Card.Header>
+								<Card.Header>Total Salepersons</Card.Header>
 								<Card.Body>
 									<Card.Title> {saleCount} </Card.Title>
 								</Card.Body>
@@ -146,7 +146,7 @@ const Dashboard = () => {
 								style={{ width: '16rem' }}
 								className="mr-3"
 							>
-								<Card.Header>Current Month Inflow</Card.Header>
+								<Card.Header>Monthly Cash Inflow</Card.Header>
 								<Card.Body>
 									<Card.Title> Rs.{inflow}/-</Card.Title>
 								</Card.Body>
@@ -159,7 +159,7 @@ const Dashboard = () => {
 								style={{ width: '16rem' }}
 								className=""
 							>
-								<Card.Header>Current Month Outflow</Card.Header>
+								<Card.Header>Monthly Cash Outflow</Card.Header>
 								<Card.Body>
 									<Card.Title>Rs.{outflow}/-</Card.Title>
 								</Card.Body>
@@ -168,7 +168,7 @@ const Dashboard = () => {
 					</div>
 
 					<div className="data-table">
-						<h5 style={{ marginTop: '50px' }}>Products less than 100</h5>
+						<h5 style={{ marginTop: '50px' }}>Insufficient Products</h5>
 						<Table striped bordered hover>
 							<thead>
 								<tr>
@@ -183,7 +183,7 @@ const Dashboard = () => {
 						</Table>
 					</div>
 					<div className="data-table">
-						<h5 style={{ marginTop: '50px' }}>Sales People whose credit due is more then 1000</h5>
+						<h5 style={{ marginTop: '50px' }}>Salespersons whose dues exceed 1000</h5>
 						<Table striped bordered hover>
 							<thead>
 								<tr>
