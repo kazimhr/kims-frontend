@@ -106,7 +106,7 @@ const Dashboard = () => {
 
 	return (
 		<div className="content-div">
-			<h1 className="page-heading">Dashboard</h1>
+			<h1 className="page-heading">Dashboard123</h1>
 			{!userService.isLoggedIn() && (
 				<h1 style={{ textAlign: 'center', marginTop: '60px' }}>Log in to see details!</h1>
 			)}
