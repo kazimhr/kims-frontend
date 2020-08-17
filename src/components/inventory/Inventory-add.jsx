@@ -166,6 +166,7 @@ function MyVerticallyCenteredModal(props) {
 									<option>Kurleez</option>
 									<option>Lay's</option>
 									<option>Nescafe</option>
+									<option>Garnier</option>
 								</ReactBootstrap.Form.Control>
 							</ReactBootstrap.Col>
 							<span className={compError === true ? 'err-normal' : 'err-hidden'}>

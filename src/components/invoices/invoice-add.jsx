@@ -144,7 +144,7 @@ function InvoiceAdd(props) {
 				<Modal.Title id="contained-modal-title-vcenter">Add New Invoice</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
-				<Form noValidate validated={validated} onSubmit={handleSubmit}>
+				<Form onSubmit={handleSubmit}>
 					<Form.Group
 						as={Col}
 						md="4"
